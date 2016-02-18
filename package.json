@@ -1,0 +1,32 @@
+{
+  "name": "WebLinter",
+  "version": "0.1.0",
+  "description": "A tool to run a basic set of validation/linting tools on a web project",
+  "author": "Jon Nicholson",
+  "homepage": "http://www.drjonnicholson.com",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drjonnicholson/WebLinter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drjonnicholson/WebLinter/issues"
+  },
+  "scripts": {
+    "test": "grunt --verbose"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-csslint": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-html": "latest",
+    "grunt-jscs": "latest",
+    "grunt-jsdoc": "latest",
+    "grunt-jsonlint": "latest",
+    "ink-docstrap": "latest",
+    "logfile-grunt": "latest",
+    "time-grunt": "latest"
+  },
+  "site": "."
+}
