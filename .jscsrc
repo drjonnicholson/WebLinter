@@ -1,5 +1,14 @@
 {
     "preset": "jquery",
     "fileExtensions": [".js", "jscs"],
-	"validateLineBreaks": "CRLF"
+	"requireSpacesInsideParentheses": false,
+    "requireSpacesInsideBrackets": false,
+	"jsDoc": {
+		"checkAnnotations": {
+			"preset": "jsdoc3"
+		},
+		"enforceExistence": {
+			"allExcept": ["exports"]
+		}
+	}
 }

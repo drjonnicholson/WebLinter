@@ -69,7 +69,8 @@ module.exports = function( grunt ) {
 		jscs: {
 			options: {
 				force: true,
-				config: ".jscsrc"
+				config: ".jscsrc",
+				verbose: true
 			},
 			src: [
 				"<%= pkg.site %>/**/*.js",
